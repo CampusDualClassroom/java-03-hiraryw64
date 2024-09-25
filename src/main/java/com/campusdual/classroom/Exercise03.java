@@ -20,13 +20,12 @@ public class Exercise03 {
         if (user.equals("Sebas") && pass.equals("sebas01")){
             System.out.println(greetings(user));
         } else {
-            System.out.println(error(user));
+            System.out.println(error("Sebas"));
         }
     }
 
-
     public static void main(String[] args) {
         checkUser("Sebas", "sebas01");
-        checkUser("Miau", "gatitosalpoder");
+        checkUser("TestUser", "gatitosalpoder");
     }
 }
